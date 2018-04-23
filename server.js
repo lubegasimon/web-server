@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     // res.send('About this page');
     res.render('about.hbs', {
-        pageTitle: 'Diploma in software engineering',
+        pageTitle: 'Masters in software engineering',
         currentYear: new Date().getFullYear()
     });
 });
