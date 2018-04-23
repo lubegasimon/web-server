@@ -1,0 +1,47 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>application module</title>
+        </head>
+        <body>
+            <p style=font-family:algerian;color:blue>Application form for diploma in software engineering</p>
+        <table border=1 >
+            <tr><td><form>
+                
+                
+                <p>1. Full names <br>The names must be the same as those that appear at the applicants' previous documents <br>
+                <input type="text" name="name" placeholder="surname" /> 
+                <input type="text" name="name" placeholder=" Others names"/> </p>
+                
+                <p>2. Status<br> 
+                    <input type="text" name="status" placeholder="marital status"/>  
+                    <input type="text" name="district" placeholder="District of origin " /> <br>
+                    <input type="text" name="country" Nationality/> </p>
+                <p>3. Gender:<br>
+              <select name="gender"><option>male</option><option>female</option></select>
+                
+                <p>4. Adress <br>
+                    <input type="text" name="address" placeholder=" Postal Address" /><br>
+                    <input type="text" name="phone" placeholder=" Telephone No" />
+                    <input type="text" name="email" placeholder=" email"/>
+                    
+                <p>5. secondary Schools and institutions attended<br>
+                    i. O-level <br> 
+                    <input type="text" name="school" placeholder=" School Name"/>
+                    <input type="text" name="indexNo" placeholder=" Index No"/> <br>
+                    <br>From<input type="date" name="date"> To <input type="date" name="date"/></p>
+                    
+                <p>	ii. A-level <br>
+                    <input type="text" name="school" placeholder=" School Name" />
+                    <input type="text" name="indexNo" placeholder=" Index No"/><br>
+                    <br> From<input type="date" name="date"/>To <input type="date" name="date"/></p>
+                    
+                <p>	iii. College (Where applicable) <br>
+                     <input type="text" name="college"placeholder="College Name" />
+                     <input type="text" name="indexNo" placeholder=" Index No" /> <br>
+                     <br>From <input type="date" name="date"/> To <input type="date" name="date"/></p>
+                </table>	
+            </form>
+            {{> footer}}
+        </body>
+    </html>	
